@@ -2,7 +2,7 @@ import { createContext } from "react";
 export  interface Todo {
   id: string;
   title: string;
-  isDone: boolean;
+  isDone: boolean | string;
 }
 
 export const InterfaceContext = createContext<Todo | null>(null)

@@ -27,7 +27,6 @@ export default function Tasks() {
                 {/* <ToggleButtons /> */}
                 <TodosLists/>
                 <Inputs  />
-
             </Card>
         </>
     )

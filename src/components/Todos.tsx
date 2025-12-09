@@ -14,7 +14,7 @@ export default function Todo(){
                justifyContent:'center',
                alignItems:'center'
             }}>
-                <ProviderInterFace >
+                <ProviderInterFace>
                     <Tasks/>                
                 </ProviderInterFace>
             </Container>
