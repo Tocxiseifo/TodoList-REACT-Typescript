@@ -35,7 +35,7 @@ export default function Inputs() {
   const nonCompleted = useMemo(() => Task.filter(t => !t.isDone), [Task]);
 
   const todosRender =
-    filterType === 'Completed'? completed : filterType === 'NotCompleted' ? nonCompleted : Task;
+    filterType === 'Completed'? completed : filterType === 'NotCompleted' ? nonCompleted: Task;
 
   // ================== Handlers ==================
 
@@ -186,7 +186,7 @@ export default function Inputs() {
       <div
         style={{
           position: 'fixed',
-          top: '660px',
+          top: '740px',
           display: 'flex',
           gap: '10px'
         }}
